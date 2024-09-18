@@ -6,7 +6,7 @@ vars:
   serviceName: "serverless-devs-application"
   functionName: "stable-diffusion-webui" 
   # imageUrl: "registry.cn-hangzhou.aliyuncs.com/aliyun-fc/fc-stable-diffusion:anime-v12" 
-  imageUrl: "registry.cn-hangzhou.aliyuncs.com/pdkpdk/pdkpdk-sd-webui:1"
+  imageUrl: "registry-vpc.cn-hangzhou.aliyuncs.com/pdkpdk/pdk-sdagent:1"
   filemgrToken: ""
   extraArgs: "--allow-code --xformers --enable-insecure-extension-access --api"
   enableCollect: ""

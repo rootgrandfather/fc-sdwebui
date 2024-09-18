@@ -51,7 +51,12 @@ services:
         environmentVariables:
           EXTRA_ARGS: ${vars.extraArgs}
           ENABLE_COLLECT: ${vars.enableCollect}
-          MY_TEST_ENV: aaaaaa
+          SD_MODEL: sd-v1-5-inpainting.ckpt
+          OSS_MODE: remote
+          OSS_ENDPOINT: oss-cn-shanghai.aliyuncs.com
+          OSS_BUCKET: sd-api-mytest
+          OTS_ENDPOINT: https://fc-sd-f587c931a.cn-hangzhou.ots.aliyuncs.com
+          OTS_INSTANCE: fc-sd-f587c931a
       triggers:
         - name: defaultTrigger
           description: ''

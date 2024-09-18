@@ -51,6 +51,7 @@ services:
         environmentVariables:
           EXTRA_ARGS: ${vars.extraArgs}
           ENABLE_COLLECT: ${vars.enableCollect}
+          MY_TEST_ENV: aaaaaa
       triggers:
         - name: defaultTrigger
           description: ''

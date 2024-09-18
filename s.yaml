@@ -57,6 +57,7 @@ services:
           OSS_BUCKET: sd-api-mytest
           OTS_ENDPOINT: https://fc-sd-f587c931a.cn-hangzhou.ots.aliyuncs.com
           OTS_INSTANCE: fc-sd-f587c931a
+          ALIBABA_CLOUD_ACCESS_KEY_ID: LTAIdWCsTeLUXRWv
       triggers:
         - name: defaultTrigger
           description: ''
